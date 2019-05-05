@@ -7,7 +7,7 @@ if name_hash.length!=0
 lowestvalue = name_hash.first[1]
 lowest=name_hash.first[0]
 name_hash.each { |x,y|
-if y>lowestvalue
+if y<lowestvalue
   lowestvalue=y
   lowest=x
 end
