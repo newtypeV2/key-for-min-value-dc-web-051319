@@ -3,9 +3,10 @@
 
 def key_for_min_value(name_hash)
 lowest=""
+lowestvalue = 0
 if name_hash.length!=0
 name_hash.each { |x,y|
-if
+if y<
 
 }
 else
