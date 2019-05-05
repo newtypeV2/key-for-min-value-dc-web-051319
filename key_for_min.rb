@@ -6,7 +6,7 @@ lowest=nil
 if name_hash.length!=0
 lowestvalue = name_hash.first[1]
 name_hash.each { |x,y|
-if 
+if y<lowestvalue
   lowestvalue=y
   lowest=x
 end
