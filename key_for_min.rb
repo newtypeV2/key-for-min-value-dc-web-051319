@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
 lowest=nil
-lowestvalue = name_hash.first[1]
 if name_hash.length!=0
+lowestvalue = name_hash.first[1]
 name_hash.each { |x,y|
 if 
   lowestvalue=y
