@@ -11,8 +11,6 @@ if y<lowestvalue
   lowest=x
 end
 }
-lowest
-else
-  lowest
 end
+lowest
 end
